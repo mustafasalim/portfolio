@@ -19,7 +19,7 @@ const Heading = (props: HeadingProps) => {
           </div>
         </div>
       </h2>
-      <div className="text-xs lg:text-md  dark:text-zinc-300 text-black flex items-center justify-end text-center mt-8">
+      <div className="text-xs lg:text-lg  dark:text-zinc-300 text-black flex items-center justify-end text-center mt-8">
         {description}
       </div>
     </div>
