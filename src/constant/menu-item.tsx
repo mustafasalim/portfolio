@@ -1,11 +1,9 @@
 import {
   IconBrandGithub,
-  IconBrandX,
   IconExchange,
   IconHome,
-  IconNewSection,
   IconTerminal2,
-  Icon360,
+  IconBrandLinkedin,
 } from "@tabler/icons-react"
 export const links = [
   {
@@ -17,46 +15,33 @@ export const links = [
   },
 
   {
-    title: "Products",
+    title: "Projects",
     icon: (
       <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#",
-  },
-  {
-    title: "Components",
-    icon: (
-      <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-    ),
-    href: "#",
-  },
-  {
-    title: "Aceternity UI",
-    icon: (
-      <Icon360 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-    ),
-    href: "#",
-  },
-  {
-    title: "Changelog",
-    icon: (
-      <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-    ),
-    href: "#",
+    href: "#projects",
   },
 
   {
-    title: "Twitter",
+    title: "Areas Of Expertise",
     icon: (
-      <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#",
+    href: "#areas-of-expertise",
+  },
+
+  {
+    title: "Linkedin",
+    icon: (
+      <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    ),
+    href: "www.linkedin.com/in/mustafa-salim-562145205",
   },
   {
     title: "GitHub",
     icon: (
       <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#",
+    href: "https://github.com/mustafasalim",
   },
 ]

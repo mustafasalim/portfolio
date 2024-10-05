@@ -1,51 +1,51 @@
 export const products = [
   {
     title: "Select App",
-    link: "https://app.pixelperfect.quest",
+    link: "https://github.com/mustafasalim/multi-select",
     thumbnail: "/selectApp.png",
   },
   {
     title: "Coffe App",
-    link: "https://userogue.com",
+    link: "https://github.com/mustafasalim/coffe-app",
     thumbnail: "/coffeApp.png",
   },
   {
     title: "Resumee App",
-    link: "https://editrix.ai",
+    link: "https://github.com/mustafasalim/resumee-project",
     thumbnail: "/resumeeApp.png",
   },
 
   {
     title: "Github App",
-    link: "https://editorially.org",
+    link: "https://github.com/mustafasalim/github-app",
     thumbnail: "/githubApp.png",
   },
 
   {
     title: "Ufel Design",
-    link: "https://algochurn.com",
+    link: "https://github.com/mustafasalim/ufeldesign",
     thumbnail: "/ufelApp.png",
   },
 
   {
     title: "X App",
-    link: "https://algochurn.com",
+    link: "https://github.com/mustafasalim/twitter-clone-x-react",
     thumbnail: "/xApp.png",
   },
   {
     title: "Valorant App",
-    link: "https://algochurn.com",
+    link: "https://github.com/mustafasalim/valorant-blog",
     thumbnail: "/valorantApp.png",
   },
   {
     title: "Games App",
-    link: "https://cursor.so",
+    link: "https://github.com/mustafasalim/games-project",
     thumbnail: "/gamesApp.png",
   },
 
   {
     title: "Weather App",
-    link: "https://algochurn.com",
+    link: "https://github.com/mustafasalim/weather-app",
     thumbnail: "/weatherApp.png",
   },
 ]

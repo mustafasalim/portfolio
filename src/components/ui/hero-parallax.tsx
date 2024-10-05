@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client"
 import React from "react"
 import {
@@ -9,25 +10,6 @@ import {
 } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import { TypewriterEffect } from "./typewriter-effect"
-import { Button } from "./button"
-
-const words = [
-  {
-    text: "Hi,",
-  },
-  {
-    text: " I'm",
-  },
-  {
-    text: "Mustafa",
-    className: "text-blue-500 dark:text-blue-500",
-  },
-  {
-    text: "Salim!",
-    className: "text-blue-500 dark:text-blue-500",
-  },
-]
 
 export const HeroParallax = ({
   products,
@@ -76,7 +58,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[230vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -122,19 +104,23 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 ">
-      <h1>
-        <TypewriterEffect
-          className="text-left"
-          words={words}
-        />
-      </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 flex items-center justify-center flex-col">
+      <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
+        Hi, I'm Mustafa Salim, building impactful
+        <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
+          <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
+            <span className="ml-3">web experiences.</span>
+          </div>
+          <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4">
+            <span className="ml-3"> web experiences.</span>
+          </div>
+        </div>
+      </h2>
+      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 text-center">
         We build beautiful products with the latest technologies and frameworks.
         We are a team of passionate developers and designers that love to build
         amazing products.
       </p>
-      <Button className="mt-6">contact</Button>
     </div>
   )
 }
