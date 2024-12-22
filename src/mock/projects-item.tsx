@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link"
 
 interface DummyContentProps {
   imageUrl: string
@@ -20,11 +21,24 @@ const DummyContent = (props: DummyContentProps) => {
 
 export const tabs = [
   {
+    title: "Discord",
+    value: "discord",
+    content: (
+      <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <Link href="https://github.com/mustafasalim/discord-app">
+          <DummyContent imageUrl="/discordApp.png" />
+        </Link>
+      </div>
+    ),
+  },
+  {
     title: "Valorant",
     value: "valorant",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/valorantApp.png" />
+        <Link href="https://github.com/mustafasalim/valorant-blog">
+          <DummyContent imageUrl="/valorantApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -33,7 +47,9 @@ export const tabs = [
     value: "games",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/gamesApp.png" />
+        <Link href="https://github.com/mustafasalim/games-project">
+          <DummyContent imageUrl="/gamesApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -42,7 +58,9 @@ export const tabs = [
     value: "resume",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/resumeeApp.png" />
+        <Link href="https://github.com/mustafasalim/resumee-project">
+          <DummyContent imageUrl="/resumeeApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -51,7 +69,9 @@ export const tabs = [
     value: "github",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/githubApp.png" />
+        <Link href="https://github.com/mustafasalim/github-app">
+          <DummyContent imageUrl="/githubApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -60,7 +80,9 @@ export const tabs = [
     value: "coffe",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/coffeApp.png" />
+        <Link href="https://github.com/mustafasalim/coffe-app">
+          <DummyContent imageUrl="/coffeApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -69,7 +91,9 @@ export const tabs = [
     value: "ufel",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/ufelApp.png" />
+        <Link href="https://github.com/mustafasalim/ufeldesign">
+          <DummyContent imageUrl="/ufelApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -78,7 +102,9 @@ export const tabs = [
     value: "weather",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/weatherApp.png" />
+        <Link href="https://github.com/mustafasalim/weather-app">
+          <DummyContent imageUrl="/weatherApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -87,7 +113,9 @@ export const tabs = [
     value: "x",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/xApp.png" />
+        <Link href="https://github.com/mustafasalim/twitter-clone-x-react">
+          <DummyContent imageUrl="/xApp.png" />
+        </Link>
       </div>
     ),
   },
@@ -96,7 +124,9 @@ export const tabs = [
     value: "select",
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-        <DummyContent imageUrl="/selectApp.png" />
+        <Link href="https://github.com/mustafasalim/multi-select">
+          <DummyContent imageUrl="/selectApp.png" />
+        </Link>
       </div>
     ),
   },

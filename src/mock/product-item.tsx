@@ -10,6 +10,11 @@ export const products = [
     thumbnail: "/coffeApp.png",
   },
   {
+    title: "Discord App",
+    link: "https://github.com/mustafasalim/discord-app",
+    thumbnail: "/discordApp.png",
+  },
+  {
     title: "Resumee App",
     link: "https://github.com/mustafasalim/resumee-project",
     thumbnail: "/resumeeApp.png",

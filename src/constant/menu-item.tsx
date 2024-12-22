@@ -35,7 +35,7 @@ export const links = [
     icon: (
       <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "www.linkedin.com/in/mustafa-salim-562145205",
+    href: "https://www.linkedin.com/in/mustafa-salim-562145205",
   },
   {
     title: "GitHub",

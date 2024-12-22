@@ -4,6 +4,7 @@ export const projects = [
     description:
       "A versatile and widely-used programming language that powers the dynamic behavior on most websites and applications.",
   },
+
   {
     title: "React",
     description:
